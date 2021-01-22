@@ -21,7 +21,6 @@ public class MainClient {
             transaction = entityManager.getTransaction();
             transaction.begin();
 
-
             Player player = new Player();
             player.setFirstName("Sachin");
             player.setLastName("Tendulkar");
